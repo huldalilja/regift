@@ -1,0 +1,25 @@
+:root {
+  --primary-bg-color: rgb(106,133,93);
+  --primary-color: rgb(50,90,30);
+  --primary-color-lighter: rgb(61,109,37)
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animation-cool {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  width: 100%;
+}
+
+.App-banner {
+  width: 100%;
+}
+
+.wrapping-img {
+  width: 33%;
+  margin-top: 40px;
+}
+
