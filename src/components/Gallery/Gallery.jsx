@@ -72,6 +72,7 @@ class Gallery extends PureComponent {
         return (
             <div id="ActivitiesDiv" style={{ marginTop: 80 }}>
                 <div className="title carousel-title">How it looks</div>
+                <p style={{textAlign: "center"}}>Send me your results to hulda@huldalilja.com so I can feature it here!</p>
                 <div className="carousel-container">
                     <a href="./" className="anchor" id="Activities">a</a>
                     <img className={imgClassNames} alt="" src={this.slides[this.state.slideIndex].img}/>

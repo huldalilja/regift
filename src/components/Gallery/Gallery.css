@@ -9,7 +9,7 @@
   border-style: solid;
   padding: 15px 28px;
   color: var(--primary-color);
-  width: 45%;
+  width: 30%;
   position: relative;
   margin: auto; 
   background-color: var(--secondary-bg-color);
@@ -119,16 +119,16 @@
 
 @media screen and (max-width: 1000px) {
   .carousel-container {
-    width: 70%; } }
+    width: 50%; } }
 
 @media screen and (max-width: 700px) {
   .carousel-container {
-    width: 100%; } }
+    width: 70%; } }
 
 @media screen and (max-width: 505px) {
   .text {
     height: 170px;
-    width: 95%; } }
+    width: 75%; } }
 
 @media screen and (max-width: 400px) {
   .text {

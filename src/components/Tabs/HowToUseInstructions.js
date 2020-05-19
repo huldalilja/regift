@@ -33,9 +33,9 @@ const instructions = [
         img: pakka6
     },
     {
-        text: (<p>Flip the gift to the opposite side and make a nice bow with the ribbon. Your gift is ready to put a smile on someone's face!
+        text: (<span>Flip the gift to the opposite side and make a nice bow with the ribbon. Your gift is ready to put a smile on someone's face!
             <br/><br/>Tip: If the rest of the ribbon is really long you can make a double bow.
-        </p>),
+        </span>),
         img: pakka7
     }
 ]

@@ -35,7 +35,7 @@
 @media (max-width: 700px) {
   .testimonial {
     text-align: center;
-    width: 90%; }
+    width: 75%; }
   .testimonial img {
     display: block;
     margin: auto;
