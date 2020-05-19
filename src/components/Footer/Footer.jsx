@@ -30,13 +30,10 @@ class Footer extends PureComponent {
                     <img src={ribbon} style={{ top: this.state.ribbonHeight, marginTop:  -this.state.ribbonHeight}} className="footer-ribbon"/>
                 </div>
                 <div className="footer">
-                    <a href="https://www.linkedin.com/in/huldalilja" target="_blank" rel="noopener noreferrer" className="social-icon">
-                        <FontAwesomeIcon icon={['fab', 'linkedin-in']}/>
+                    <a target="blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fregift.huldalilja.com%2F&amp;src=sdkpreparse" className="social-icon">
+                        <FontAwesomeIcon icon={['fab', 'facebook']}/>
                     </a>
-                    <a href="https://www.instagram.com/huldalilja" target="_blank" rel="noopener noreferrer" className="social-icon">
-                        <FontAwesomeIcon icon={['fab', 'instagram']}/>
-                    </a>
-                    <a href="https://github.com/huldalilja/huldalilja.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+                    <a href="https://github.com/huldalilja/regift.huldalilja.com" target="_blank" rel="noopener noreferrer" className="social-icon">
                         <FontAwesomeIcon icon={['fab', 'github']}/>
                     </a>
                     <a href = "mailto:hulda@huldalilja.com?subject=What's up?&body=Hello!" target="_blank" rel="noopener noreferrer" className="social-icon envelope">
