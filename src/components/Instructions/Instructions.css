@@ -1,5 +1,5 @@
 .instruction-img {
-    width: 500px;
+    width: 600px;
     margin: auto;
     display: block;
     margin: auto;
@@ -13,4 +13,9 @@
 @media (max-width: 810px) {
     .instruction-img {
         width: 80%;
+}}
+
+@media (max-width: 700px) {
+    .instruction-img {
+        width: 95%;
 }}
