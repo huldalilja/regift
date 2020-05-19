@@ -1,5 +1,6 @@
 .tabs{
     width: 100%;
+    margin-top: 80px;
 }
 
 .tab {
@@ -8,6 +9,7 @@
     border-image-outset:10.5px 10.5px 10.5px 10.5px;
     border-image-repeat:stretch stretch;
     border-image-source:url("../../assets/border.png");
+    border-style: solid;
     background-color: transparent;
     padding: 10px;
     padding-top:30px;
@@ -17,15 +19,27 @@
     width: 50%;
     color: black;
     font-weight: bold;
-    background-color: rgb(231, 231, 224);
+    background-color: var(--secondary-bg-color);
     font-size: 1.3rem;
+    transition: background-color .6s ease-in-out, border-image-width .8s ease-in-out;
 }
 
-.active-tab {
+.active-tab, .tab:hover {
+    cursor: pointer;
     background-color: white;
     border-image-width:20px 20px 0px 20px;
 }
 
-.tab:hover {
-    cursor: pointer;
+.show-tab-content{
+    max-height: 10000px;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+    
+}
+
+.hide-tab-content {
+    max-height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
 }

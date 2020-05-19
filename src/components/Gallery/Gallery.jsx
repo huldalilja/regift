@@ -70,8 +70,8 @@ class Gallery extends PureComponent {
             )
         }
         return (
-            <div id="ActivitiesDiv" className="page">
-            <div className="title carousel-title">How it ends</div>
+            <div id="ActivitiesDiv" style={{ marginTop: 80 }}>
+                <div className="title carousel-title">How it looks</div>
                 <div className="carousel-container">
                     <a href="./" className="anchor" id="Activities">a</a>
                     <img className={imgClassNames} alt="" src={this.slides[this.state.slideIndex].img}/>

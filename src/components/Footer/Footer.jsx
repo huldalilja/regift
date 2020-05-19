@@ -27,7 +27,7 @@ class Footer extends PureComponent {
         return (
             <Fragment>
                 <div className="ribbon-div">
-                    <img src={ribbon} style={{ top: this.state.ribbonHeight }} className="footer-ribbon"/>
+                    <img src={ribbon} style={{ top: this.state.ribbonHeight, marginTop:  -this.state.ribbonHeight}} className="footer-ribbon"/>
                 </div>
                 <div className="footer">
                     <a href="https://www.linkedin.com/in/huldalilja" target="_blank" rel="noopener noreferrer" className="social-icon">
@@ -42,7 +42,10 @@ class Footer extends PureComponent {
                     <a href = "mailto:hulda@huldalilja.com?subject=What's up?&body=Hello!" target="_blank" rel="noopener noreferrer" className="social-icon envelope">
                         <FontAwesomeIcon icon="envelope"/>
                     </a>
-                    <p className="made-by-text">Made by: Hulda Lilja Hannesdóttir</p>
+                    <p>
+                        <a href="https://huldalilja.com" target="_blank" rel="noopener noreferrer" className="made-by-text">Made by: Hulda Lilja Hannesdóttir</a>
+                    </p>
+                    
                 </div>
             </Fragment>
         )

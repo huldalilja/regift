@@ -1,0 +1,16 @@
+.instruction-img {
+    width: 500px;
+    margin: auto;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.instruction-text{
+    text-align: center;
+}
+
+@media (max-width: 810px) {
+    .instruction-img {
+        width: 80%;
+}}

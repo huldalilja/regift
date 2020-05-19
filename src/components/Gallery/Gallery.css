@@ -1,5 +1,4 @@
-
-/* Slideshow container */
+/* Gallery container */
 .carousel-container {
   border-radius: 10px;
   border-width: 5px;border-image-slice:246 246 243 233;
@@ -13,7 +12,7 @@
   width: 45%;
   position: relative;
   margin: auto; 
-  background-color: rgb(231, 231, 224);
+  background-color: var(--secondary-bg-color);
 }
 
 .carousel-title {

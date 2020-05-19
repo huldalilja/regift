@@ -2,6 +2,7 @@
   --primary-bg-color: rgb(106,133,93);
   --primary-color: rgb(50,90,30);
   --primary-color-lighter: rgb(61,109,37);
+  --secondary-bg-color: #DFE5DD;
 }
 
 .title {
@@ -25,11 +26,19 @@
 .wrapping-img {
   width: 33%;
   margin-top: 40px;
+  margin-bottom: 20px;
+  float: left;
+  min-width: 400px;
+}
+
+a {
+  transition: opacity .8s ease-in-out; 
 }
 
 a:hover {
-  font-weight: bold;
-  cursor: pointer; }
+  opacity: 0.5;
+  cursor: pointer; 
+  transition: opacity .8s ease-in-out; }
 
 a.anchor {
   display: block;
@@ -71,6 +80,16 @@ a {
 p {
   font-size: 1.15rem;
 }
+
+@media (max-width: 810px) {
+  .wrapping-img{
+    width: 70%;
+    display: block;
+    float: none;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 500px;
+  }}
 
 @media (prefers-reduced-motion: no-preference) {
   .animation-cool {
