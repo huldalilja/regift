@@ -21,6 +21,8 @@ import skyrtan from './assets/skyrtan.png';
 import './App.css';
 import Footer from "./components/Footer/Footer"
 import About from "./components/About/About"
+import Tabs from "./components/Tabs/Tabs"
+import Gallery from "./components/Gallery/Gallery"
 
 library.add(faEnvelope, faArrowCircleUp, faChevronCircleDown, faChevronCircleUp, faTimes, faBars, faHammer, faDownload, fab, faHandSpock, faHandPaper, faAward, faFolder, faBook);
 
@@ -36,33 +38,31 @@ function App() {
         <img src={banner} className="App-banner" alt="Refigt banner" />
       </header>
       <About/>
-      <img src={sokkurinn} className="wrapping-img"/>
-      <img src={bokin} className="wrapping-img"/>
-      <img src={skyrtan} className="wrapping-img"/>
-      <br/>
-      <div class="w3-bar w3-black">
-        <button class="w3-bar-item w3-button" onClick={openCity('Use')}>How to use</button>
-        <button class="w3-bar-item w3-button" onClick={openCity('Make')}>How to make</button>
+      <div className="page">
+        <div className="section">
+          <div className="title">How it looks</div>
+          <img src={sokkurinn} className="wrapping-img"/>
+          <img src={bokin} className="wrapping-img"/>
+          <img src={skyrtan} className="wrapping-img"/>
+        </div>
+        <Tabs className="section"/>
+        <img src={pakka1} className="wrapping-img"/>
+        <img src={pakka2} className="wrapping-img"/>
+        <img src={pakka3} className="wrapping-img"/>
+        <img src={pakka4} className="wrapping-img"/>
+        <img src={pakka5} className="wrapping-img"/>
+        <img src={pakka6} className="wrapping-img"/>
+        <img src={pakka7} className="wrapping-img"/>
+        <br/>
+        <img src={sauma1} className="wrapping-img"/>
+        <img src={sauma2} className="wrapping-img"/>
+        <img src={sauma3} className="wrapping-img"/>
+        <img src={sauma4} className="wrapping-img"/>
+        <img src={sauma5} className="wrapping-img"/>
       </div>
-      <div id="Use" class="city">
-        <h2>How to use</h2>
+      <div className="section">
+        <Gallery/>
       </div>
-      <div id="Make" class="city">
-        <h2>How to make</h2>
-      </div>
-      <img src={pakka1} className="wrapping-img"/>
-      <img src={pakka2} className="wrapping-img"/>
-      <img src={pakka3} className="wrapping-img"/>
-      <img src={pakka4} className="wrapping-img"/>
-      <img src={pakka5} className="wrapping-img"/>
-      <img src={pakka6} className="wrapping-img"/>
-      <img src={pakka7} className="wrapping-img"/>
-      <br/>
-      <img src={sauma1} className="wrapping-img"/>
-      <img src={sauma2} className="wrapping-img"/>
-      <img src={sauma3} className="wrapping-img"/>
-      <img src={sauma4} className="wrapping-img"/>
-      <img src={sauma5} className="wrapping-img"/>
       <Footer/>
     </div>
   );

@@ -1,0 +1,141 @@
+
+/* Slideshow container */
+.carousel-container {
+  border-radius: 10px;
+  border-width: 5px;border-image-slice:246 246 243 233;
+  border-image-width:20px 20px 20px 20px;
+  border-image-outset:10.5px 10.5px 10.5px 10.5px;
+  border-image-repeat:stretch stretch;
+  border-image-source:url("../../assets/border.png");
+  border-style: solid;
+  padding: 15px 28px;
+  color: var(--primary-color);
+  width: 45%;
+  position: relative;
+  margin: auto; 
+  background-color: rgb(231, 231, 224);
+}
+
+.carousel-title {
+  margin-bottom: 15px; 
+}
+
+.carousel-img {
+  max-width: 100%;
+  border-radius: 5px;
+  user-select: none; }
+
+/* Next & previous buttons */
+.prev, .next {
+  border-radius: 10px;
+  border-width: 5px;
+  border-style: solid;
+  position: absolute;
+  top: 50%;
+  margin-top: -22px;
+  height: 50px;
+  width: 50px;
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+  border-width: 0px;
+  border-radius: 50%;
+  font-weight: bolder;
+  font-size: x-large;
+  transition: 0.6s ease;
+  user-select: none; }
+
+.center-inside {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+/* Position the "next button" to the right */
+.next {
+  right: -28px; }
+
+.prev {
+  left: -28px; }
+
+/* On hover, add a border */
+.prev:hover, .next:hover {
+  border-width: 2px; }
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  margin: 0 5px;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: 4px solid var(--primary-color);
+  border-radius: 50%;
+  z-index: 1;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative;
+  z-index: 1; }
+
+.carousel-dots {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px; }
+
+.active, .dot:hover {
+  background-color: var(--primary-color); }
+
+/* Fading animation, two different names so can switch when changing image and replay animation */
+.fade {
+  animation: fade-in 1s ease-in; }
+
+/* Fading animation */
+.fade2 {
+  animation: fade-in2 1s ease-in; }
+
+/* Caption text */
+.text {
+  color: white;
+  padding: 15px;
+  opacity: 0.9;
+  background-color: var(--primary-color);
+  width: 90%;
+  margin-top: -70px !important;
+  height: 120px;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px; }
+
+@keyframes fade-in {
+  from {
+    opacity: 0.4; }
+  to {
+    opacity: 1; } }
+
+@keyframes fade-in2 {
+  from {
+    opacity: 0.4; }
+  to {
+    opacity: 1; } }
+
+@media screen and (max-width: 1000px) {
+  .carousel-container {
+    width: 70%; } }
+
+@media screen and (max-width: 700px) {
+  .carousel-container {
+    width: 100%; } }
+
+@media screen and (max-width: 505px) {
+  .text {
+    height: 170px;
+    width: 95%; } }
+
+@media screen and (max-width: 400px) {
+  .text {
+    height: 220px; } }
+
+@media screen and (max-width: 370px) {
+  .text {
+    height: 270px;
+    width: 97%; } }

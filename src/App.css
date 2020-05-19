@@ -1,17 +1,21 @@
 :root {
   --primary-bg-color: rgb(106,133,93);
   --primary-color: rgb(50,90,30);
-  --primary-color-lighter: rgb(61,109,37)
+  --primary-color-lighter: rgb(61,109,37);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .animation-cool {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.title {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--primary-color)}
+  @media screen and (prefers-color-scheme: dark) {
+    .title {
+      color: white; } }
+
 
 .App-header {
   width: 100%;
+  -webkit-user-select: none;
 }
 
 .App-banner {
@@ -22,4 +26,61 @@
   width: 33%;
   margin-top: 40px;
 }
+
+a:hover {
+  font-weight: bold;
+  cursor: pointer; }
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -67px;
+  visibility: hidden; }
+
+a {
+  color:var(--primary-color);
+  text-decoration: none;
+  transition: all .2s ease-in-out; }
+  
+::-moz-selection {
+  background: var(--primary-color);
+}
+
+::selection {
+  background: var(--primary-color);
+}
+
+::-moz-selection {
+  color: white;
+}
+
+::selection {
+  color: white;
+}
+
+.page {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 1.15rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animation-cool {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  p {
+    color: white; }
+  .small-text {
+    color: white; } }
 

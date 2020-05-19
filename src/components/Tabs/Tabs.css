@@ -1,0 +1,31 @@
+.tabs{
+    width: 100%;
+}
+
+.tab {
+    border-image-slice:246 246 243 233;
+    border-image-width:20px 20px 20px 20px;
+    border-image-outset:10.5px 10.5px 10.5px 10.5px;
+    border-image-repeat:stretch stretch;
+    border-image-source:url("../../assets/border.png");
+    background-color: transparent;
+    padding: 10px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    margin: 0px;
+    outline: none;
+    width: 50%;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(231, 231, 224);
+    font-size: 1.3rem;
+}
+
+.active-tab {
+    background-color: white;
+    border-image-width:20px 20px 0px 20px;
+}
+
+.tab:hover {
+    cursor: pointer;
+}
