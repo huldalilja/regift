@@ -19,7 +19,7 @@
     width: 50%;
     color: black;
     font-weight: bold;
-    background-color: var(--secondary-bg-color);
+    background-color: var(--primary-color);
     font-size: 1.3rem;
     transition: background-color .6s ease-in-out, border-image-width .8s ease-in-out;
 }
