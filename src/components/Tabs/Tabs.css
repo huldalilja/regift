@@ -1,23 +1,22 @@
 .tabs{
     width: 100%;
     margin-top: 80px;
+    background-color: var(--primary-bg-color-lighter);
+    border-color: var(--primary-color);
+    border-style: solid;
+    border-width: 10px;
+    border-radius: var(--hand-drawn-border-radius);
 }
 
 .tab {
-    border-image-slice:246 246 243 233;
-    border-image-width:20px 20px 20px 20px;
-    border-image-outset:10.5px 10.5px 10.5px 10.5px;
-    border-image-repeat:stretch stretch;
-    border-image-source:url("../../assets/border.png");
-    border-style: solid;
-    background-color: transparent;
+    border-width: 0px;
     padding: 10px;
     padding-top:30px;
     padding-bottom: 30px;
     margin: 0px;
     outline: none;
     width: 50%;
-    color: black;
+    color: white;
     font-weight: bold;
     background-color: var(--primary-color);
     font-size: 1.3rem;
@@ -26,15 +25,16 @@
 
 .active-tab, .tab:hover {
     cursor: pointer;
-    background-color: white;
+    background-color: transparent;
     border-image-width:20px 20px 0px 20px;
+    color: black;
 }
 
 .show-tab-content{
     max-height: 10000px;
     opacity: 1;
     transition: all 1s ease-in-out;
-    
+    padding: 30px;
 }
 
 .hide-tab-content {

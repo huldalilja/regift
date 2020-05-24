@@ -1,14 +1,17 @@
 :root {
-  --primary-bg-color: rgb(106,133,93);
-  --primary-color: rgb(50,90,30);
-  --primary-color-lighter: rgb(61,109,37);
-  --secondary-bg-color: #DFE5DD;
+  --primary-bg-color: #00AF66;
+  --primary-bg-color-lighter: rgb(193, 230, 220);
+  --primary-color: #027A57;
+  --primary-color-lighter: #159662;
+
+  --hand-drawn-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 }
 
 .title {
   font-size: 3rem;
   text-align: center;
-  color: var(--primary-color)}
+  font-weight: bold;
+  color: var(--primary-color)};
   @media screen and (prefers-color-scheme: dark) {
     .title {
       color: white; } }

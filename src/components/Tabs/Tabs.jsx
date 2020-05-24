@@ -3,6 +3,7 @@ import "./Tabs.css"
 import Instructions from "../Instructions/Instructions"
 import howToMake from './HowToMakeInstructions.js';
 import howToUse from './HowToUseInstructions.js';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Tabs extends PureComponent {
     constructor(props) {
@@ -47,8 +48,8 @@ class Tabs extends PureComponent {
 
         return (
             <div className="tabs">
-                <button onClick={this.showTab1} className={tab1}>How to use</button>
-                <button onClick={this.showTab2} className={tab2}>How to make</button>
+                <button onClick={this.showTab1} className={tab1}>How to use <FontAwesomeIcon icon="gift"/></button>
+                <button onClick={this.showTab2} className={tab2}>How to make <FontAwesomeIcon icon="cut"/></button>
                 <div className={tab1ClassName}>
                     <Instructions instructions={howToUse}/>
                 </div>

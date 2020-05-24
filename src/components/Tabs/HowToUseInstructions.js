@@ -1,10 +1,10 @@
-import pakka1 from '../../assets/pakka1.png';
-import pakka2 from '../../assets/pakka2.png';
-import pakka3 from '../../assets/pakka3.png';
-import pakka4 from '../../assets/pakka4.png';
-import pakka5 from '../../assets/pakka5.png';
-import pakka6 from '../../assets/pakka6.png';
-import pakka7 from '../../assets/pakka7.png';
+import pakka1 from '../../assets/pakka1.svg';
+import pakka2 from '../../assets/pakka2.svg';
+import pakka3 from '../../assets/pakka3.svg';
+import pakka4 from '../../assets/pakka4.svg';
+import pakka5 from '../../assets/pakka5.svg';
+import pakka6 from '../../assets/pakka6.svg';
+import pakka7 from '../../assets/pakka7.svg';
 import React from 'react'
 
 const instructions = [

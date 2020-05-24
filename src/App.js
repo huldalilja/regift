@@ -1,18 +1,18 @@
 import React from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faArrowCircleUp, faTimes, faBars, faHammer, faDownload, faHandSpock, faHandPaper, faChevronCircleUp, faChevronCircleDown, faAward, faFolder, faBook} from '@fortawesome/free-solid-svg-icons'
+import { faGift, faCut, faEnvelope, faArrowCircleUp, faTimes, faBars, faHammer, faDownload, faHandSpock, faHandPaper, faChevronCircleUp, faChevronCircleDown, faAward, faFolder, faBook} from '@fortawesome/free-solid-svg-icons'
 import banner from './assets/banner.svg';
-import sokkurinn from './assets/sokkurinn.png';
-import bokin from './assets/bókin.png';
-import skyrtan from './assets/skyrtan.png';
+import sokkurinn from './assets/sokkurinn.svg';
+import bokin from './assets/bókin.svg';
+import skyrtan from './assets/skyrtan.svg';
 import './App.css';
 import Footer from "./components/Footer/Footer"
 import About from "./components/About/About"
 import Tabs from "./components/Tabs/Tabs"
 import Gallery from "./components/Gallery/Gallery"
 
-library.add(faEnvelope, faArrowCircleUp, faChevronCircleDown, faChevronCircleUp, faTimes, faBars, faHammer, faDownload, fab, faHandSpock, faHandPaper, faAward, faFolder, faBook);
+library.add(faEnvelope, faArrowCircleUp, faChevronCircleDown, faChevronCircleUp, faTimes, faBars, faHammer, faDownload, fab, faHandSpock, faHandPaper, faAward, faFolder, faBook, faGift, faCut);
 
 function App() {
   return (
@@ -23,8 +23,8 @@ function App() {
       
       <div className="page">
         <div className="section">
-          <div className="title">Reusable gift wrapping</div>
-          <p style={{textAlign: "center"}}>The design in three different sizes to match the most famous gifts, the sock, the book and the shirt</p>
+          <div className="title">Gift wrapping</div>
+          <p style={{textAlign: "center"}}>The reusable design in three different sizes to match the most famous gifts, the sock, the book and the shirt</p>
           <div>
             <img src={sokkurinn} className="wrapping-img"/>
             <img src={bokin} className="wrapping-img"/>
@@ -37,6 +37,7 @@ function App() {
       </div>
       <div className="section">
         <Gallery/>
+        <p style={{textAlign: "center"}}>Send me your results to hulda@huldalilja.com so I can feature it here!</p>
       </div>
       <About/>
       <Footer/>

@@ -1,8 +1,8 @@
-import sauma1 from '../../assets/klippa.png';
-import sauma2 from '../../assets/títa og mæla borða.png';
-import sauma3 from '../../assets/sauma.png';
-import sauma4 from '../../assets/festa borða og strauja.png';
-import sauma5 from '../../assets/merkja.png';
+import sauma1 from '../../assets/klippa.svg';
+import sauma2 from '../../assets/títa og mæla borða.svg';
+import sauma3 from '../../assets/sauma.svg';
+import sauma4 from '../../assets/festa borða og strauja.svg';
+import sauma5 from '../../assets/merkja.svg';
 import React from 'react'
 
 const instructions = [
