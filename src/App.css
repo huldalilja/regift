@@ -109,8 +109,19 @@ p {
 }
 
 @media screen and (prefers-color-scheme: dark) {
-  p {
-    color: white; }
-  .small-text {
-    color: white; } }
+  body {
+    color: white;
+    background-color: rgb(30, 82, 67);
+  }
+  :root {
+  --primary-bg-color-lighter: rgb(21, 36, 32);
+  --primary-color: rgb(119, 189, 169);
+
+  --hand-drawn-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  --border-width: 15px;
+  }
+  .App-header {
+    background-image: url("./assets/bannerdark.svg");
+  }
+}
 
