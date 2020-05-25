@@ -2,9 +2,9 @@
   width: 100%;
   background-color: var(--primary-bg-color);
   text-align: center;
-  height: 270px;
+  height: 310px;
   margin: 0px;
-  padding-top: 150px; 
+  padding-top: 180px; 
   padding-bottom: 10px;
   overflow: hidden;
 }

@@ -2,7 +2,6 @@ import React from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faGift, faCut, faEnvelope, faArrowCircleUp, faTimes, faBars, faHammer, faDownload, faHandSpock, faHandPaper, faChevronCircleUp, faChevronCircleDown, faAward, faFolder, faBook} from '@fortawesome/free-solid-svg-icons'
-import banner from './assets/banner.svg';
 import sokkurinn from './assets/sokkurinn.svg';
 import bokin from './assets/bókin.svg';
 import skyrtan from './assets/skyrtan.svg';
@@ -15,20 +14,27 @@ import Gallery from "./components/Gallery/Gallery"
 library.add(faEnvelope, faArrowCircleUp, faChevronCircleDown, faChevronCircleUp, faTimes, faBars, faHammer, faDownload, fab, faHandSpock, faHandPaper, faAward, faFolder, faBook, faGift, faCut);
 
 function App() {
+  if(window.innerWidth < window.innerHeight) {
+    // Portrait mode
+    var headerHeight = window.innerWidth * 0.5;
+  }
+  else {
+    // Landscape mode
+    var headerHeight = window.innerHeight;
+  }
+  var bgColor = getComputedStyle(document.documentElement).getPropertyValue('--primary-bg-color');
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={banner} className="App-banner" alt="Regift banner" />
-      </header>
-      
+      <header className="App-header" style={{height: headerHeight, backgroundColor:bgColor}} />      
       <div className="page">
         <div className="section">
           <div className="title">Gift wrapping</div>
           <p style={{textAlign: "center"}}>The reusable design in three different sizes to match the most famous gifts, the sock, the book and the shirt</p>
           <div>
-            <img src={sokkurinn} className="wrapping-img"/>
-            <img src={bokin} className="wrapping-img"/>
-            <img src={skyrtan} className="wrapping-img"/>
+            <img src={sokkurinn} alt="Gift wrapping in a size that fits socks." className="wrapping-img"/>
+            <img src={bokin} alt="Gift wrapping in a size that fits books." className="wrapping-img"/>
+            <img src={skyrtan} alt="Gift wrapping in a size that fits shirts." className="wrapping-img"/>
           </div>
         </div>
         <div style={{clear: "both", paddingTop: 10}}>
@@ -39,7 +45,9 @@ function App() {
         <Gallery/>
         <p style={{textAlign: "center"}}>Send me your results to hulda@huldalilja.com so I can feature it here!</p>
       </div>
-      <About/>
+      <div className="section">
+        <About/>
+      </div>
       <Footer/>
     </div>
   );

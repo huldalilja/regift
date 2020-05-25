@@ -6,19 +6,19 @@ import result4 from "../../assets/result4.jpg";
 
 const slides = [
     {
-        text: "Second prototype",
+        text: "The second prototype made with thin black velour fabric which makes it super easy to fold and faded green colored medium-thick ribbon.",
         img: result1
     },
     {
-        text: "Second prototype",
+        text: "Second prototype from a different angle.",
         img: result2
     },
     {
-        text: "First prototype",
+        text: "The first prototype made with thin black velour fabric which makes it super easy to fold and vibrant yellow-colored and thin ribbon.",
         img: result3
     },
     {
-        text: "First prototype from behind",
+        text: "First prototype from behind.",
         img: result4
     }
 ]

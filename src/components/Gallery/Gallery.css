@@ -65,7 +65,7 @@
   width: 25px;
   height: 25px;
   background-color: white;
-  border: 5px solid var(--primary-bg-color);
+  border: 7px solid var(--primary-bg-color);
   border-radius: 50%;
   z-index: 1;
   display: inline-block;
