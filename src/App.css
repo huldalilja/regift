@@ -5,6 +5,7 @@
   --primary-color-lighter: #159662;
 
   --hand-drawn-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  --border-width: 15px;
 }
 
 .title {

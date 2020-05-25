@@ -4,7 +4,7 @@
     background-color: var(--primary-bg-color-lighter);
     border-color: var(--primary-bg-color);
     border-style: solid;
-    border-width: 10px;
+    border-width: var(--border-width);
     border-radius: var(--hand-drawn-border-radius);
 }
 
