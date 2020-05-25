@@ -2,9 +2,10 @@
   width: 100%;
   background-color: var(--primary-bg-color);
   text-align: center;
-  height: 310px;
+  height: 20vw;
+  min-height: 250px;
   margin: 0px;
-  padding-top: 180px; 
+  padding-top: 15vw; 
   padding-bottom: 10px;
   overflow: hidden;
 }

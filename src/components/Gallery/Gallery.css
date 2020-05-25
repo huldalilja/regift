@@ -19,7 +19,10 @@
 .carousel-img {
   max-width: 100%;
   border-radius: 5px;
-  user-select: none; }
+  user-select: none; 
+  display:block;
+  margin:auto;
+}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -135,3 +138,12 @@
   .text {
     height: 270px;
     width: 97%; } }
+
+@media screen and (prefers-color-scheme: dark) {
+  .dot {
+    background-color: var(--background-color); 
+  }
+
+  .active, .dot:hover {
+    background-color: var(--primary-bg-color); }
+}

@@ -1,4 +1,5 @@
 .tabs{
+    position: relative;
     width: 98%;
     background-color: var(--primary-bg-color-lighter);
     border-color: var(--primary-bg-color);

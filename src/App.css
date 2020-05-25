@@ -8,6 +8,18 @@
   --border-width: 15px;
 }
 
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    color: white;
+    background-color: var(--background-color);
+  }
+  :root {
+  --primary-bg-color-lighter: rgb(21, 36, 32);
+  --primary-color: rgb(119, 189, 169);
+  --background-color: rgb(30, 82, 67);
+  }
+}
+
 .title {
   font-size: 3rem;
   text-align: center;
@@ -17,27 +29,10 @@
     .title {
       color: white; } }
 
-
-.App-header {
-  height: 100vh;
-  overflow: hidden;
-  background-image: url("./assets/banner.svg");
-  background-size: cover;
-  background-position: center;
-  -webkit-user-select: none;
-}
-
-@media (orientation: portrait) {
-  .App-header {
-    height: 50vh;
-  }
-}
-
 .wrapping-img {
   width: 33%;
   margin-top: 40px;
   margin-bottom: 20px;
-  float: left;
   min-width: 400px;
   max-width: 500px;
 }
@@ -92,6 +87,13 @@ p {
   font-size: 1.15rem;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
 @media (max-width: 810px) {
   .wrapping-img{
     width: 70%;
@@ -107,21 +109,3 @@ p {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-@media screen and (prefers-color-scheme: dark) {
-  body {
-    color: white;
-    background-color: rgb(30, 82, 67);
-  }
-  :root {
-  --primary-bg-color-lighter: rgb(21, 36, 32);
-  --primary-color: rgb(119, 189, 169);
-
-  --hand-drawn-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-  --border-width: 15px;
-  }
-  .App-header {
-    background-image: url("./assets/bannerdark.svg");
-  }
-}
-
