@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "./Footer.css";
 import ribbon from "../../assets/footerribbon.svg"
 
+
 class Footer extends PureComponent {
     constructor(props) {
         super(props)
@@ -34,6 +35,11 @@ class Footer extends PureComponent {
                         <a target="blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fregift.huldalilja.com%2F&amp;src=sdkpreparse" className="social-icon">
                             <FontAwesomeIcon icon={['fab', 'facebook']}/>
                         </a>
+                        <a target="blank" className="social-icon" href="https://www.pinterest.com/pin/create/button/?url=https://regift.huldalilja.com/&media=https://regift.huldalilja.com/static/media/pakka1.dec226d0.svg&description=Reusable%20Gift%20Wrapping%20-%20Design%20and%20Tutorials!"
+                            data-pin-do="buttonBookmark"
+                            data-pin-custom="true">
+                            <FontAwesomeIcon icon={['fab', 'pinterest']}/>
+                        </a>
                         <a href="https://github.com/huldalilja/regift.huldalilja.com" target="_blank" rel="noopener noreferrer" className="social-icon">
                             <FontAwesomeIcon icon={['fab', 'github']}/>
                         </a>
@@ -41,7 +47,6 @@ class Footer extends PureComponent {
                             <FontAwesomeIcon icon="envelope"/>
                         </a>
                     </div>
-                    
                     <p>
                         <a href="https://huldalilja.com" target="_blank" rel="noopener noreferrer" className="made-by-text">Made by: Hulda Lilja Hannesdóttir</a>
                     </p>
