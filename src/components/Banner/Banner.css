@@ -1,5 +1,5 @@
 .App-banner {
-    height: 101vh;
+    height: 98vh;
     overflow: hidden;
     background-image: url("../../assets/banner.svg");
     background-color: var(--primary-bg-color);
@@ -9,7 +9,7 @@
 
 @media (orientation: portrait) {
     .App-banner {
-        height: 50vh;
+        height: 49vh;
     }
 }
 

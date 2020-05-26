@@ -11,6 +11,7 @@ import About from "./components/About/About"
 import Tabs from "./components/Tabs/Tabs"
 import Gallery from "./components/Gallery/Gallery"
 import Banner from "./components/Banner/Banner"
+import Statcounter from "./components/Statcounter/Statcounter"
 
 library.add(faEnvelope, faArrowCircleUp, faChevronCircleDown, faChevronCircleUp, faTimes, faBars, faHammer, faDownload, fab, faHandSpock, faHandPaper, faAward, faFolder, faBook, faGift, faCut);
 
@@ -29,17 +30,18 @@ function App() {
             <img src={skyrtan} alt="Gift wrapping in a size that fits shirts." className="wrapping-img"/>
           </div>
         </div>
-        <div style={{clear: "both", paddingTop: 10}}>
-          <Tabs className="section"/>
+        <div className="section" style={{clear: "both", paddingTop: 10}}>
+          <Tabs />
+        </div>
+        <div className="section">
+          <Gallery/>
+          <p style={{textAlign: "center"}}>Send me your results to hulda@huldalilja.com so I can feature it here!</p>
+        </div>
+        <div className="section">
+          <About/>
         </div>
       </div>
-      <div className="section">
-        <Gallery/>
-        <p style={{textAlign: "center"}}>Send me your results to hulda@huldalilja.com so I can feature it here!</p>
-      </div>
-      <div className="section">
-        <About/>
-      </div>
+      <Statcounter/>
       <Footer/>
     </div>
   );

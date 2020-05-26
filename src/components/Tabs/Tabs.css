@@ -1,6 +1,6 @@
 .tabs{
-    position: relative;
-    width: 98%;
+    box-sizing: border-box;
+    width: 100%;
     background-color: var(--primary-bg-color-lighter);
     border-color: var(--primary-bg-color);
     border-style: solid;
