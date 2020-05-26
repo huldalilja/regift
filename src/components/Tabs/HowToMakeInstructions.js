@@ -27,7 +27,7 @@ const instructions = [
             <br/><br/><br/><b>Extra Tips: </b><br/>- Reuse old clothes, cloths or scarfs for this!
             <br/>- It would also be super cute to knit or crochet the square instead of using fabric and then use cordage instead of a ribbon.
             <br/>- Cut the sides where the ribbons are in triangles, making it even easier for folding when used.
-            <br/>- For extra hard shaped gifts or more stiff fabric, it's also possible to cut the ribbon in two parts and half of it again in two. With two quarters in the original place but the second half sewed from the middle to the middle of the folded side, on the outside of the fabric. When wrapping, instead of making the crossing, simply wrap the two ribbons around the gift and make two bows (for a nice look, but the two second ribbons under the first one before making the bow).
+            <br/>- For extra hard shaped gifts or more stiff fabric, it's also possible to cut the ribbon in two parts and half of it again in two. With two quarters in the original place but the second half sewed from the middle to the middle of the folded side, on the outside of the fabric. When wrapping, instead of making the crossing, simply wrap the two ribbons around the gift and make two bows (for a nice look, put the two second ribbons under the first one before making the bow).
             </span>
             ),
         img: sauma5

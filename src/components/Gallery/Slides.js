@@ -6,7 +6,7 @@ import result4 from "../../assets/result4.jpg";
 
 const slides = [
     {
-        text: "The second prototype made with thin black velour fabric which makes it super easy to fold and faded green colored medium-thick ribbon.",
+        text: "The second prototype in the book size. Made with thin black velour fabric which makes it super easy to fold and faded green colored medium-thick ribbon.",
         img: result1
     },
     {
@@ -14,7 +14,7 @@ const slides = [
         img: result2
     },
     {
-        text: "The first prototype made with thin black velour fabric which makes it super easy to fold and vibrant yellow-colored and thin ribbon.",
+        text: "The first prototype in the book size. Made with thin black velour fabric which makes it super easy to fold and vibrant yellow-colored and thin ribbon.",
         img: result3
     },
     {
