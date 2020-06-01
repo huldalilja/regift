@@ -1,10 +1,11 @@
-import pakka1 from '../../assets/pakka1.svg';
-import pakka2 from '../../assets/pakka2.svg';
-import pakka3 from '../../assets/pakka3.svg';
-import pakka4 from '../../assets/pakka4.svg';
-import pakka5 from '../../assets/pakka5.svg';
-import pakka6 from '../../assets/pakka6.svg';
-import pakka7 from '../../assets/pakka7.svg';
+import pakka1 from '../../assets/media/pakka1.svg';
+import pakka2 from '../../assets/media/pakka2.svg';
+import pakka3 from '../../assets/media/pakka3.svg';
+import pakka4 from '../../assets/media/pakka4.svg';
+import pakka5 from '../../assets/media/pakka5.svg';
+import pakka6 from '../../assets/media/pakka6.svg';
+import pakka7 from '../../assets/media/pakka7.svg';
+import pakka8 from '../../assets/media/pakka8.gif';
 import React from 'react'
 
 const instructions = [
@@ -37,6 +38,10 @@ const instructions = [
             <br/><br/>Tip: If the rest of the ribbon is really long you can make a double bow.
         </span>),
         img: pakka7
+    },
+    {
+        text: "How to wrap the tricky-one.",
+        img: pakka8
     }
 ]
 

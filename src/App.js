@@ -2,10 +2,11 @@ import React from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faGift, faCut, faEnvelope, faArrowCircleUp, faTimes, faBars, faHammer, faDownload, faHandSpock, faHandPaper, faChevronCircleUp, faChevronCircleDown, faAward, faFolder, faBook} from '@fortawesome/free-solid-svg-icons'
-import sokkurinn from './assets/sokkurinn.svg';
-import bokin from './assets/bókin.svg';
-import skyrtan from './assets/skyrtan.svg';
+import sokkurinn from './assets/media/sokkurinn.svg';
+import bokin from './assets/media/bókin.svg';
+import skyrtan from './assets/media/skyrtan.svg';
 import './App.css';
+import './Constants.css';
 import Footer from "./components/Footer/Footer"
 import About from "./components/About/About"
 import Tabs from "./components/Tabs/Tabs"

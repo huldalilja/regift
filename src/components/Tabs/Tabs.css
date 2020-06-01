@@ -1,7 +1,7 @@
 .tabs{
     box-sizing: border-box;
     width: 100%;
-    background-color: var(--primary-bg-color-lighter);
+    background-color: var(--secondary-bg-color);
     border-color: var(--primary-bg-color);
     border-style: solid;
     border-width: var(--border-width);
