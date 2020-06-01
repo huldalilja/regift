@@ -5,6 +5,7 @@ import { faGift, faCut, faEnvelope, faArrowCircleUp, faTimes, faBars, faHammer, 
 import sokkurinn from './assets/media/sokkurinn.svg';
 import bokin from './assets/media/bókin.svg';
 import skyrtan from './assets/media/skyrtan.svg';
+import theTrickyOne from './assets/media/the-tricky-one.svg';
 import './App.css';
 import './Constants.css';
 import Footer from "./components/Footer/Footer"
@@ -29,6 +30,7 @@ function App() {
             <img src={sokkurinn} alt="Gift wrapping in a size that fits socks." className="wrapping-img"/>
             <img src={bokin} alt="Gift wrapping in a size that fits books." className="wrapping-img"/>
             <img src={skyrtan} alt="Gift wrapping in a size that fits shirts." className="wrapping-img"/>
+            <img src={theTrickyOne} alt="Gift wrapping for thicker fabric or tricky gifts." className="wrapping-img"/>
           </div>
         </div>
         <div className="section" style={{clear: "both", paddingTop: 10}}>

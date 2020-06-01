@@ -7,7 +7,7 @@ import React from 'react'
 
 const instructions = [
     {
-        text: "First, decide which size is appropriate and possibly the tricky-one if you have a thicker fabric or a tricky shaped gift. Then start with cutting out the square in the desired size from a fabric that is not too stiff.",
+        text: "First, decide which size is appropriate and possibly the tricky-one if you have a thicker fabric or a tricky shaped gift. The only difference for the tricky-one is the ribbon. It's in three pieces, two at the top and bottom and the third, longer part in the middle left side. Then start with cutting out the square in the desired size from a fabric that is not too stiff.",
         img: sauma1
     },
     {
