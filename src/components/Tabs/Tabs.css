@@ -1,8 +1,8 @@
 .tabs{
     box-sizing: border-box;
     width: 100%;
-    background-color: var(--secondary-bg-color);
-    border-color: var(--primary-bg-color);
+    background-color: var(--light-bg-color);
+    border-color: var(--light-border-color);
     border-style: solid;
     border-width: var(--border-width);
     border-radius: var(--hand-drawn-border-radius);
@@ -18,7 +18,7 @@
     width: 50%;
     color: white;
     font-weight: bold;
-    background-color: var(--primary-bg-color);
+    background-color: var(--light-border-color);
     font-size: 1.3rem;
     transition: background-color .6s ease-in-out;
 }
@@ -27,7 +27,7 @@
     cursor: pointer;
     background-color: transparent;
     border-image-width:20px 20px 0px 20px;
-    color: var(--primary-color);
+    color: var(--light-border-color);
 }
 
 .show-tab-content{
@@ -42,4 +42,10 @@
     opacity: 0;
     overflow: hidden;
     transition: all 1s ease-in-out;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    .active-tab, .tab:hover {
+        color: white;
+    }
 }

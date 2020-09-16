@@ -14,7 +14,7 @@
   margin: auto;
   width: 50%;
   max-width: 670px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--light-bg-color);
   border-radius: 20%;
 }
 

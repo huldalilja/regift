@@ -1,7 +1,7 @@
 /* Gallery container */
 .carousel-container {
-  background-color: var(--primary-color);
-  border-color: var(--primary-bg-color);
+  background-color: var(--light-bg-color);
+  border-color: var(--light-bg-color);
   border-style: solid;
   border-width: var(--border-width);
   border-radius: var(--hand-drawn-border-radius);
@@ -18,7 +18,7 @@
 
 .carousel-img {
   max-width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
   user-select: none; 
   display:block;
   margin:auto;
@@ -34,9 +34,9 @@
   margin-top: -22px;
   height: 50px;
   width: 50px;
-  background-color: var(--primary-bg-color);
+  background-color: var(--light-border-color);
   color: white;
-  border-color: var(--primary-bg-color);
+  border-color: var(--light-border-color);
   border-width: 0px;
   border-radius: 50%;
   font-weight: bolder;
@@ -67,8 +67,8 @@
   margin: 0 5px;
   width: 25px;
   height: 25px;
-  background-color: white;
-  border: 7px solid var(--primary-bg-color);
+  background-color: var(--secondary-bg-color);
+  border: 7px solid var(--light-border-color);
   border-radius: 50%;
   z-index: 1;
   display: inline-block;
@@ -82,7 +82,7 @@
   margin-top: 20px; }
 
 .active, .dot:hover {
-  background-color: var(--primary-color); }
+  background-color: var(--light-border-color); }
 
 /* Fading animation, two different names so can switch when changing image and replay animation */
 .fade {
@@ -103,7 +103,7 @@
   height: 120px;
   margin: auto;
   text-align: center;
-  border-radius: 5px; }
+  border-radius: 10px; }
 
 @keyframes fade-in {
   from {
@@ -145,5 +145,5 @@
   }
 
   .active, .dot:hover {
-    background-color: var(--primary-bg-color); }
+    background-color: var(--light-border-color); }
 }

@@ -1,12 +1,16 @@
 :root {
-    --primary-bg-color: #00AF66;
-    --primary-bg-color-lighter: rgb(222, 247, 233);
-    --primary-color: #027A57;
-    --primary-color-lighter: #159662;
-    --secondary-bg-color: #f1eece;
-
+    --primary-bg-color: #8666B3;
+    --primary-color: #522E84;
+    --primary-color-lighter: #65498c;
+    --secondary-bg-color: #e9e7ec;
+    --light-bg-color: #f5f5f5;
+    --light-border-color: #8c8496;
     --hand-drawn-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     --border-width: 15px;
+  }
+
+  body {
+    background-color: var(--secondary-bg-color);
   }
   
   @media screen and (prefers-color-scheme: dark) {
@@ -15,9 +19,9 @@
       background-color: var(--background-color);
     }
     :root {
-    --primary-bg-color-lighter: rgb(21, 36, 32);
-    --primary-color: rgb(119, 189, 169);
-    --background-color: rgb(30, 82, 67);
-    --secondary-bg-color: rgb(21, 36, 32);
+    --primary-color-lighter: #7f738f;
+    --background-color:  #2d1f41;
+    --light-bg-color: #a09aa8;
+    --light-border-color: #8c8496;
     }
   }

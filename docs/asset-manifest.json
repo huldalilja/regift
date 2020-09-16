@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.06a631c2.chunk.css",
-    "main.js": "/static/js/main.0d80372a.chunk.js",
-    "main.js.map": "/static/js/main.0d80372a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.82d0c223.js",
-    "runtime-main.js.map": "/static/js/runtime-main.82d0c223.js.map",
-    "static/js/2.0974c030.chunk.js": "/static/js/2.0974c030.chunk.js",
-    "static/js/2.0974c030.chunk.js.map": "/static/js/2.0974c030.chunk.js.map",
+    "main.css": "/static/css/main.507206c6.chunk.css",
+    "main.js": "/static/js/main.2f6aa018.chunk.js",
+    "main.js.map": "/static/js/main.2f6aa018.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.45d80201.js",
+    "runtime-main.js.map": "/static/js/runtime-main.45d80201.js.map",
+    "static/js/2.be99599e.chunk.js": "/static/js/2.be99599e.chunk.js",
+    "static/js/2.be99599e.chunk.js.map": "/static/js/2.be99599e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ec65806939fcd3598066d5278eda57da.js": "/precache-manifest.ec65806939fcd3598066d5278eda57da.js",
+    "precache-manifest.4fc7a606af604d106130ebfd35f3ed90.js": "/precache-manifest.4fc7a606af604d106130ebfd35f3ed90.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.06a631c2.chunk.css.map": "/static/css/main.06a631c2.chunk.css.map",
-    "static/js/2.0974c030.chunk.js.LICENSE.txt": "/static/js/2.0974c030.chunk.js.LICENSE.txt",
-    "static/media/Banner.css": "/static/media/bannerdark.4a05718d.svg",
+    "static/css/main.507206c6.chunk.css.map": "/static/css/main.507206c6.chunk.css.map",
+    "static/js/2.be99599e.chunk.js.LICENSE.txt": "/static/js/2.be99599e.chunk.js.LICENSE.txt",
+    "static/media/Banner.css": "/static/media/bannerdark.257efab2.svg",
     "static/media/bókin.svg": "/static/media/bókin.58ab9c42.svg",
     "static/media/About.css": "/static/media/confetti.7260dc7e.svg",
     "static/media/festa borða og strauja.svg": "/static/media/festa borða og strauja.db30478d.svg",
-    "static/media/footerribbon.svg": "/static/media/footerribbon.6b833644.svg",
-    "static/media/icon.svg": "/static/media/icon.a76b459c.svg",
+    "static/media/footerribbon.png": "/static/media/footerribbon.8a6654f5.png",
+    "static/media/icon.svg": "/static/media/icon.50ae6619.svg",
     "static/media/klippa.svg": "/static/media/klippa.49d8ff02.svg",
     "static/media/merkja.svg": "/static/media/merkja.90807531.svg",
     "static/media/pakka1.svg": "/static/media/pakka1.dec226d0.svg",
@@ -42,9 +42,9 @@
     "static/media/títa og mæla borða.svg": "/static/media/títa og mæla borða.c919f09d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.82d0c223.js",
-    "static/js/2.0974c030.chunk.js",
-    "static/css/main.06a631c2.chunk.css",
-    "static/js/main.0d80372a.chunk.js"
+    "static/js/runtime-main.45d80201.js",
+    "static/js/2.be99599e.chunk.js",
+    "static/css/main.507206c6.chunk.css",
+    "static/js/main.2f6aa018.chunk.js"
   ]
 }

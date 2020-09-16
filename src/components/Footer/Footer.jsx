@@ -1,7 +1,7 @@
 import React, { PureComponent, Fragment } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "./Footer.css";
-import ribbon from "../../assets/footerribbon.svg"
+import ribbon from "../../assets/footerribbon.png"
 
 
 class Footer extends PureComponent {

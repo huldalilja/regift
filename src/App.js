@@ -38,7 +38,7 @@ function App() {
         </div>
         <div className="section">
           <Gallery/>
-          <p style={{textAlign: "center"}}>Send me your results to hulda@huldalilja.com so I can feature it here!</p>
+          <p style={{textAlign: "center"}}>Send me your results to hulda@huldalilja.com if you try it out!</p>
         </div>
         <div className="section">
           <About/>
