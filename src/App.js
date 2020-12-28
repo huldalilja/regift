@@ -24,8 +24,8 @@ function App() {
       <Banner/>
       <div className="page">
         <div className="section">
-          <div className="title">Gift wrapping</div>
-          <p style={{textAlign: "center"}}>The reusable design in three different sizes to match the most famous gifts, the sock, the book and the shirt</p>
+          {/*<div className="title">Gift wrapping</div>
+          <p style={{textAlign: "center"}}>The reusable design in three different sizes to match the most famous gifts, the sock, the book and the shirt</p>*/}
           <div className="container">
             <img src={sokkurinn} alt="Gift wrapping in a size that fits socks." className="wrapping-img"/>
             <img src={bokin} alt="Gift wrapping in a size that fits books." className="wrapping-img"/>
@@ -40,9 +40,9 @@ function App() {
           <Gallery/>
           <p style={{textAlign: "center"}}>Send me your results to hulda@huldalilja.com if you try it out!</p>
         </div>
-        <div className="section">
+        {/*<div className="section">
           <About/>
-        </div>
+        </div>*/}
       </div>
       <Statcounter/>
       <Footer/>

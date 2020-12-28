@@ -7,11 +7,11 @@ import React from 'react'
 
 const instructions = [
     {
-        text: "First, decide which size is appropriate and possibly the tricky-one if you have a thicker fabric or a tricky shaped gift. The only difference for the tricky-one is the ribbon. It's in three pieces, two at the top and bottom and the third, longer part in the middle left side. Then start with cutting out the square in the desired size from a fabric that is not too stiff.",
+        text: "First, decide which size is appropriate and possibly the tricky-one if you have a thicker fabric or a tricky shaped gift. The only difference for the tricky-one is the ribbon. It's in three pieces, two at the top and bottom and the third, longer part in the middle left side. Then start with cutting out the square in the desired size from a fabric that is not too stiff. It might be nice to reuse old clothes, cloths or scarfs.",
         img: sauma1
     },
     {
-        text: "Measure the ribbon and burn the ends. With a bigger ribbon, it might be nice to cut a V into the end. Find a thread with a similar color to the ribbon. On one of the shorter sides of the square fold small part of it twice and secure it with pins.",
+        text: "Measure the ribbon and burn the ends. The given lengths are quite long to make sure when wrapping they are never too short. With a bigger ribbon, it might be nice to cut a V into the end. Find a thread with a similar color to the ribbon. On one of the shorter sides of the square fold small part of it twice and secure it with pins.",
         img: sauma2
     },
     {
@@ -23,10 +23,7 @@ const instructions = [
         img: sauma4
     },
     {
-        text: (<span>Now your reusable gift wrapping is ready but it might be fun with a thicker fabric in a lighter color to add instructions with a permanent pen. Make sure to test that the pen is not visible on the other side beforehand on an extra piece of the same fabric. On the picture, there is an example of instructions but you could additionally write "Reuse me!" or the URL to the extra instructions (regift.huldalilja.com).
-            <br/><br/><br/><b>Extra Tips: </b><br/>- Reuse old clothes, cloths or scarfs for this!
-            <br/>- It would also be super cute to knit or crochet the square instead of using fabric and then use cordage instead of a ribbon.
-            <br/>- Cut the sides where the ribbons are in triangles, making it even easier for folding when used.
+        text: (<span>Now your reusable gift wrapping is ready but it might be fun with a thicker fabric to add instructions with a permanent pen(test the fabric first).
             </span>
             ),
         img: sauma5
