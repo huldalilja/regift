@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.507206c6.chunk.css",
-    "main.js": "/static/js/main.2f6aa018.chunk.js",
-    "main.js.map": "/static/js/main.2f6aa018.chunk.js.map",
+    "main.css": "/static/css/main.918e074c.chunk.css",
+    "main.js": "/static/js/main.0de2b31a.chunk.js",
+    "main.js.map": "/static/js/main.0de2b31a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.45d80201.js",
     "runtime-main.js.map": "/static/js/runtime-main.45d80201.js.map",
     "static/js/2.be99599e.chunk.js": "/static/js/2.be99599e.chunk.js",
     "static/js/2.be99599e.chunk.js.map": "/static/js/2.be99599e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4fc7a606af604d106130ebfd35f3ed90.js": "/precache-manifest.4fc7a606af604d106130ebfd35f3ed90.js",
+    "precache-manifest.08c36fc1342ced63ac298837e6ae2540.js": "/precache-manifest.08c36fc1342ced63ac298837e6ae2540.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.507206c6.chunk.css.map": "/static/css/main.507206c6.chunk.css.map",
+    "static/css/main.918e074c.chunk.css.map": "/static/css/main.918e074c.chunk.css.map",
     "static/js/2.be99599e.chunk.js.LICENSE.txt": "/static/js/2.be99599e.chunk.js.LICENSE.txt",
-    "static/media/Banner.css": "/static/media/bannerdark.257efab2.svg",
+    "static/media/Banner.css": "/static/media/bannerdark.9d3d51cd.svg",
     "static/media/bókin.svg": "/static/media/bókin.58ab9c42.svg",
     "static/media/About.css": "/static/media/confetti.7260dc7e.svg",
     "static/media/festa borða og strauja.svg": "/static/media/festa borða og strauja.db30478d.svg",
@@ -44,7 +44,7 @@
   "entrypoints": [
     "static/js/runtime-main.45d80201.js",
     "static/js/2.be99599e.chunk.js",
-    "static/css/main.507206c6.chunk.css",
-    "static/js/main.2f6aa018.chunk.js"
+    "static/css/main.918e074c.chunk.css",
+    "static/js/main.0de2b31a.chunk.js"
   ]
 }
