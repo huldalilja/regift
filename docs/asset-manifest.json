@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.156839a5.chunk.css",
+    "main.css": "/static/css/main.a8e6ad48.chunk.css",
     "main.js": "/static/js/main.0de2b31a.chunk.js",
     "main.js.map": "/static/js/main.0de2b31a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.45d80201.js",
@@ -8,11 +8,11 @@
     "static/js/2.be99599e.chunk.js": "/static/js/2.be99599e.chunk.js",
     "static/js/2.be99599e.chunk.js.map": "/static/js/2.be99599e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f9f271e52fc60f22f787b04830a556e2.js": "/precache-manifest.f9f271e52fc60f22f787b04830a556e2.js",
+    "precache-manifest.3deebd4c64b08c11b7bc873d17febecf.js": "/precache-manifest.3deebd4c64b08c11b7bc873d17febecf.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.156839a5.chunk.css.map": "/static/css/main.156839a5.chunk.css.map",
+    "static/css/main.a8e6ad48.chunk.css.map": "/static/css/main.a8e6ad48.chunk.css.map",
     "static/js/2.be99599e.chunk.js.LICENSE.txt": "/static/js/2.be99599e.chunk.js.LICENSE.txt",
-    "static/media/Banner.css": "/static/media/bannerdark.9d3d51cd.svg",
+    "static/media/Banner.css": "/static/media/bannerdark.a22ad2d1.svg",
     "static/media/bókin.svg": "/static/media/bókin.58ab9c42.svg",
     "static/media/About.css": "/static/media/confetti.7260dc7e.svg",
     "static/media/festa borða og strauja.svg": "/static/media/festa borða og strauja.db30478d.svg",
@@ -44,7 +44,7 @@
   "entrypoints": [
     "static/js/runtime-main.45d80201.js",
     "static/js/2.be99599e.chunk.js",
-    "static/css/main.156839a5.chunk.css",
+    "static/css/main.a8e6ad48.chunk.css",
     "static/js/main.0de2b31a.chunk.js"
   ]
 }
