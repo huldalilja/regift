@@ -11,15 +11,15 @@
 .tab {
     border-width: 0px;
     padding: 10px;
-    padding-top:30px;
+    padding-top:20px;
     padding-bottom: 30px;
     margin: 0px;
     outline: none;
     width: 50%;
     color: white;
-    font-weight: bold;
+    font-family: 'Pacifico', cursive;
     background-color: var(--light-border-color);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     transition: background-color .6s ease-in-out;
 }
 
