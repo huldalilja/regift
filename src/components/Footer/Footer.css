@@ -1,5 +1,7 @@
 .footer {
   width: 100%;
+  background-image: url("../../assets/purplefabric.png");
+  background-size: 100%;
   background-color: var(--primary-bg-color);
   text-align: center;
   height: 20vw;
